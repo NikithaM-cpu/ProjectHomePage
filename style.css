@@ -1,0 +1,60 @@
+/*---------------------------------------------------------Start of Header---------------------------------*/
+/*Header style of black background*/
+.header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 0px 0px;
+}
+
+/*Logo float to right */
+.header-right {
+  float: right;
+}
+/*---------------------------------------------------------End of Header--------------------------------------*/
+
+/*---------------------------------------------------------Start of Body-------------------------------------*/
+/*Body styling*/
+body
+{
+ background: #000000
+}
+
+/*Paragraph styling and alignment*/
+p {
+  border: 1px solid black;
+  padding: 10px;
+  line-height: 2.7;
+  text-align: center;
+  color: purple;
+  font-size: 40px;
+}
+
+/*Displaying button and alignment*/
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+/*Button styling*/
+.btn:hover {background: #fffff0;}
+
+.addition {color: black; background-color: red}
+.subtraction {color: black; background-color: orange}
+.multiplication {color: black; background-color: yellow}
+.division {color: black; background-color: green}
+/*---------------------------------------------------------------End of body--------------------------------------------*/
+
+/*---------------------------------------------------------------Start of footer*--------------------------------------------*/
+/*Footer*/
+/*.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}*/
+/*---------------------------------------------------------------End of footer--------------------------------------------*/
